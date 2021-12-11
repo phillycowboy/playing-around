@@ -6,10 +6,12 @@ message.style.display = "none";
 
 btn.addEventListener("click", (e) => {
     console.log(e);
-    if(message.style.display === "none"){
+    if(message.style.display === "none" && btn.innerText === "Click Me!"){
         message.style.display = "block"
+        btn.innerText = "Go Back!"
     }else{
         message.style.display = "none";
+        btn.innerText = "Click Me!"
     }
 })
 
