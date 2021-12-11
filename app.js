@@ -8,7 +8,7 @@ btn.addEventListener("click", (e) => {
     console.log(e);
     if(message.style.display === "none" && btn.innerText === "Click Me!"){
         message.style.display = "block"
-        btn.innerText = "Go Back!"
+        btn.innerText = "I Mean It!"
     }else{
         message.style.display = "none";
         btn.innerText = "Click Me!"
